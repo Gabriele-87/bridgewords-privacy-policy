@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - BridgeWords</title>
+    <title>Privacy Policy - ListenRead</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -22,6 +22,10 @@
             color: #34495e;
             margin-top: 30px;
         }
+        h3 {
+            color: #5a6c7d;
+            margin-top: 20px;
+        }
         ul {
             padding-left: 20px;
         }
@@ -31,52 +35,216 @@
         .section {
             margin-bottom: 30px;
         }
+        .lang-separator {
+            margin: 40px 0;
+            border-top: 3px solid #eee;
+            padding-top: 40px;
+        }
+        a {
+            color: #3498db;
+        }
     </style>
 </head>
 <body>
-    <h1>Privacy Policy</h1>
+    <h1>Privacy Policy - ListenRead</h1>
 
     <div class="section">
-        <p>BridgeWords si impegna a proteggere la tua privacy. Questa Privacy Policy spiega come raccogliamo e utilizziamo i dati.</p>
+        <p><strong>Ultimo aggiornamento:</strong> 1 novembre 2026</p>
+        <p><strong>Last updated:</strong> November 1, 2026</p>
+    </div>
+
+    <!-- ITALIAN VERSION -->
+    <div class="section">
+        <h2>1. Introduzione</h2>
+        <p>Questa Privacy Policy descrive come ListenRead (l'app mobile identificata nei negozi come package <code>com.bridgewords.app</code>, in alcuni casi ancora visualizzata con il nome sviluppatore "BridgeWords") raccoglie, utilizza e protegge i tuoi dati personali.</p>
+        <p>ListenRead è un'applicazione per l'apprendimento delle lingue che ti permette di leggere e ascoltare storie bilingui con audio sincronizzato in stile karaoke, liste di vocabolario e funzionalità di tracciamento dei progressi.</p>
     </div>
 
     <div class="section">
-        <h2>Dati Raccolti</h2>
+        <h2>2. Dati Raccolti e Utilizzo</h2>
+        
+        <h3>2.1 Dati Archiviati Localmente sul Dispositivo</h3>
+        <p>ListenRead <strong>non richiede la creazione di un account utente</strong> per utilizzare le funzionalità principali. I seguenti dati vengono archiviati localmente sul tuo dispositivo utilizzando la memoria locale dell'app (AsyncStorage) e non vengono trasmessi ai nostri server:</p>
         <ul>
-            <li>Nome utente: utilizzato solo per personalizzare la tua esperienza nell'app</li>
-            <li>Dati di utilizzo anonimi: statistiche di apprendimento e progressi</li>
+            <li>Preferenze di apprendimento e impostazioni dell'app</li>
+            <li>Progressi di lettura e ascolto nelle storie</li>
+            <li>Liste di vocabolario personali</li>
+            <li>Statistiche di ascolto e utilizzo</li>
+        </ul>
+        <p>Puoi eliminare questi dati in qualsiasi momento cancellando i dati dell'app dalle impostazioni del dispositivo o disinstallando l'applicazione.</p>
+
+        <h3>2.2 Abbonamento ListenRead Plus</h3>
+        <p>ListenRead offre un abbonamento opzionale chiamato <strong>ListenRead Plus</strong> che sblocca contenuti e funzionalità aggiuntive. Gli acquisti vengono gestiti tramite:</p>
+        <ul>
+            <li><strong>Google Play Store</strong> (per dispositivi Android)</li>
+            <li><strong>Apple App Store</strong> (per dispositivi iOS)</li>
+        </ul>
+        <p>Lo stato del tuo abbonamento viene gestito tramite il servizio <strong>RevenueCat SDK</strong>. Non riceviamo né memorizziamo i dettagli della tua carta di pagamento; tutte le transazioni sono elaborate dai negozi ufficiali (Google/Apple).</p>
+        <p>Per maggiori informazioni sulla privacy di RevenueCat, consulta: <a href="https://www.revenuecat.com/privacy" target="_blank">https://www.revenuecat.com/privacy</a></p>
+
+        <h3>2.3 Contenuti Audio e Utilizzo della Rete</h3>
+        <p>I file audio delle storie possono essere scaricati dalla rete (tramite CDN/server) e memorizzati in cache offline sul tuo dispositivo per consentire l'ascolto senza connessione. Durante il download di contenuti:</p>
+        <ul>
+            <li>La tua infrastruttura di hosting può processare log tecnici standard (ad esempio indirizzo IP, timestamp, URL richiesto) necessari per il funzionamento del servizio</li>
+            <li>Questi dati non vengono utilizzati per tracciare la tua identità personale</li>
+        </ul>
+
+        <h3>2.4 Aggiornamenti dell'App</h3>
+        <p>ListenRead utilizza <strong>Expo Updates</strong> per distribuire aggiornamenti dell'app. Durante il processo di aggiornamento, la tua app può comunicare con i server Expo per verificare e scaricare nuovi contenuti. I server Expo possono raccogliere dati tecnici limitati come descritto nella loro politica sulla privacy.</p>
+
+        <h3>2.5 Notifiche</h3>
+        <p>ListenRead può inviare <strong>notifiche locali di promemoria</strong> (tramite expo-notifications) direttamente dal tuo dispositivo. Non utilizziamo notifiche push remote per marketing o messaggi promozionali.</p>
+
+        <h3>2.6 Permesso Microfono</h3>
+        <p>Il manifest Android dell'app può dichiarare il permesso <code>RECORD_AUDIO</code> richiesto da alcune librerie di riproduzione audio. <strong>ListenRead non utilizza il microfono per registrare la tua voce</strong> e non raccoglie registrazioni audio dagli utenti. Se il permesso appare nelle impostazioni del sistema, non viene utilizzato dall'app per raccogliere dati.</p>
+    </div>
+
+    <div class="section">
+        <h2>3. Pubblicità</h2>
+        <p><strong>ListenRead non mostra pubblicità.</strong> Non utilizziamo Google AdMob o altre reti pubblicitarie. L'app è supportata esclusivamente tramite l'abbonamento opzionale ListenRead Plus.</p>
+    </div>
+
+    <div class="section">
+        <h2>4. Condivisione dei Dati con Terze Parti</h2>
+        <p>Non vendiamo, affittiamo o condividiamo i tuoi dati personali con terze parti per scopi di marketing. I servizi di terze parti utilizzati dall'app sono:</p>
+        <ul>
+            <li><strong>RevenueCat</strong>: per la gestione degli abbonamenti (vedi la loro <a href="https://www.revenuecat.com/privacy" target="_blank">privacy policy</a>)</li>
+            <li><strong>Google Play / Apple App Store</strong>: per l'elaborazione dei pagamenti</li>
+            <li><strong>Expo</strong>: per gli aggiornamenti dell'app</li>
         </ul>
     </div>
 
     <div class="section">
-        <h2>Pubblicità</h2>
+        <h2>5. Bambini e Minori</h2>
+        <p>ListenRead è destinata a studenti adulti e persone curiose che desiderano imparare le lingue. <strong>L'app non è diretta intenzionalmente a bambini di età inferiore a 13 anni</strong> (o inferiore a 16 anni nei paesi in cui si applica il GDPR).</p>
+        <p>Se sei un genitore o tutore e ritieni che tuo figlio ci abbia fornito dati personali, ti preghiamo di contattarci all'indirizzo email indicato di seguito, e provvederemo a cancellare tali informazioni.</p>
+    </div>
+
+    <div class="section">
+        <h2>6. I Tuoi Diritti</h2>
+        <p>Hai il diritto di:</p>
         <ul>
-            <li>L'app utilizza Google AdMob per mostrare annunci pubblicitari</li>
-            <li>AdMob può raccogliere dati anonimi per mostrare annunci pertinenti</li>
-            <li>Per maggiori informazioni sulla privacy di AdMob, visita: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></li>
+            <li><strong>Eliminare i dati locali:</strong> Cancella i dati dell'app dalle impostazioni del dispositivo o disinstalla l'applicazione</li>
+            <li><strong>Gestire l'abbonamento:</strong> Puoi annullare il tuo abbonamento ListenRead Plus tramite le impostazioni del tuo account Google Play o Apple App Store</li>
+            <li><strong>Richiedere informazioni:</strong> Contattaci per domande sui tuoi dati o per esercitare altri diritti previsti dalla legge applicabile</li>
         </ul>
     </div>
 
     <div class="section">
-        <h2>I tuoi Diritti</h2>
+        <h2>7. Sicurezza</h2>
+        <p>Ci impegniamo a proteggere i tuoi dati. Poiché la maggior parte dei dati è archiviata localmente sul tuo dispositivo, ti consigliamo di proteggere il tuo dispositivo con password o altri meccanismi di sicurezza.</p>
+    </div>
+
+    <div class="section">
+        <h2>8. Modifiche alla Privacy Policy</h2>
+        <p>Ci riserviamo il diritto di aggiornare questa Privacy Policy in qualsiasi momento. Le modifiche sostanziali saranno comunicate tramite l'app o tramite aggiornamento della data "Ultimo aggiornamento" in cima a questa pagina. Ti consigliamo di controllare periodicamente questa pagina.</p>
+    </div>
+
+    <div class="section">
+        <h2>9. Contatti</h2>
+        <p>Per qualsiasi domanda, richiesta o preoccupazione riguardante questa Privacy Policy o il trattamento dei tuoi dati, puoi contattarci all'indirizzo email:</p>
+        <p><strong>ga.develop.appstore@gmail.com</strong></p>
+    </div>
+
+    <!-- ENGLISH VERSION -->
+    <div class="lang-separator">
+        <h1>Privacy Policy - ListenRead (English)</h1>
+    </div>
+
+    <div class="section">
+        <p><strong>Last updated:</strong> November 1, 2026</p>
+    </div>
+
+    <div class="section">
+        <h2>1. Introduction</h2>
+        <p>This Privacy Policy describes how ListenRead (the mobile app identified in app stores with package name <code>com.bridgewords.app</code>, in some cases still displayed with the developer name "BridgeWords") collects, uses, and protects your personal data.</p>
+        <p>ListenRead is a language learning application that allows you to read and listen to bilingual stories with karaoke-style synced audio, vocabulary lists, and progress tracking features.</p>
+    </div>
+
+    <div class="section">
+        <h2>2. Data Collection and Use</h2>
+        
+        <h3>2.1 Data Stored Locally on Your Device</h3>
+        <p>ListenRead <strong>does not require you to create a user account</strong> to use core features. The following data is stored locally on your device using the app's local storage (AsyncStorage) and is not transmitted to our servers:</p>
         <ul>
-            <li>Puoi richiedere la cancellazione del tuo nome utente in qualsiasi momento</li>
-            <li>Non vendiamo né condividiamo i tuoi dati con terze parti</li>
+            <li>Learning preferences and app settings</li>
+            <li>Reading and listening progress in stories</li>
+            <li>Personal vocabulary lists</li>
+            <li>Listening and usage statistics</li>
+        </ul>
+        <p>You can delete this data at any time by clearing the app data from your device settings or by uninstalling the application.</p>
+
+        <h3>2.2 ListenRead Plus Subscription</h3>
+        <p>ListenRead offers an optional subscription called <strong>ListenRead Plus</strong> that unlocks additional content and features. Purchases are handled through:</p>
+        <ul>
+            <li><strong>Google Play Store</strong> (for Android devices)</li>
+            <li><strong>Apple App Store</strong> (for iOS devices)</li>
+        </ul>
+        <p>Your subscription status is managed through the <strong>RevenueCat SDK</strong> service. We do not receive or store your payment card details; all transactions are processed by the official stores (Google/Apple).</p>
+        <p>For more information about RevenueCat's privacy practices, see: <a href="https://www.revenuecat.com/privacy" target="_blank">https://www.revenuecat.com/privacy</a></p>
+
+        <h3>2.3 Audio Content and Network Usage</h3>
+        <p>Story audio files may be downloaded from the network (via CDN/servers) and cached offline on your device to enable offline listening. When downloading content:</p>
+        <ul>
+            <li>Your hosting infrastructure may process standard technical logs (e.g., IP address, timestamp, requested URL) necessary for service operation</li>
+            <li>This data is not used to track your personal identity</li>
+        </ul>
+
+        <h3>2.4 App Updates</h3>
+        <p>ListenRead uses <strong>Expo Updates</strong> to distribute app updates. During the update process, your app may communicate with Expo servers to check for and download new content. Expo servers may collect limited technical data as described in their privacy policy.</p>
+
+        <h3>2.5 Notifications</h3>
+        <p>ListenRead may send <strong>local reminder notifications</strong> (via expo-notifications) directly from your device. We do not use remote push notifications for marketing or promotional messages.</p>
+
+        <h3>2.6 Microphone Permission</h3>
+        <p>The Android app manifest may declare the <code>RECORD_AUDIO</code> permission required by some audio playback libraries. <strong>ListenRead does not use the microphone to record your voice</strong> and does not collect audio recordings from users. If the permission appears in system settings, it is not used by the app to collect data.</p>
+    </div>
+
+    <div class="section">
+        <h2>3. Advertising</h2>
+        <p><strong>ListenRead does not display advertising.</strong> We do not use Google AdMob or other ad networks. The app is supported solely through the optional ListenRead Plus subscription.</p>
+    </div>
+
+    <div class="section">
+        <h2>4. Data Sharing with Third Parties</h2>
+        <p>We do not sell, rent, or share your personal data with third parties for marketing purposes. Third-party services used by the app include:</p>
+        <ul>
+            <li><strong>RevenueCat</strong>: for subscription management (see their <a href="https://www.revenuecat.com/privacy" target="_blank">privacy policy</a>)</li>
+            <li><strong>Google Play / Apple App Store</strong>: for payment processing</li>
+            <li><strong>Expo</strong>: for app updates</li>
         </ul>
     </div>
 
     <div class="section">
-        <h2>Contatti</h2>
-        <p>Per qualsiasi domanda riguardante la privacy, puoi contattarci all'indirizzo email: ga.develop.appstore@gmail.com</p>
+        <h2>5. Children</h2>
+        <p>ListenRead is intended for adult learners and curious individuals who want to learn languages. <strong>The app is not intentionally directed at children under 13 years of age</strong> (or under 16 in countries where GDPR applies).</p>
+        <p>If you are a parent or guardian and believe your child has provided us with personal data, please contact us at the email address below, and we will delete such information.</p>
     </div>
 
     <div class="section">
-        <h2>Modifiche alla Privacy Policy</h2>
-        <p>Ci riserviamo il diritto di aggiornare questa privacy policy in qualsiasi momento. Ti consigliamo di controllare periodicamente questa pagina per eventuali modifiche.</p>
+        <h2>6. Your Rights</h2>
+        <p>You have the right to:</p>
+        <ul>
+            <li><strong>Delete local data:</strong> Clear app data from your device settings or uninstall the application</li>
+            <li><strong>Manage subscription:</strong> You can cancel your ListenRead Plus subscription through your Google Play or Apple App Store account settings</li>
+            <li><strong>Request information:</strong> Contact us with questions about your data or to exercise other rights provided by applicable law</li>
+        </ul>
     </div>
 
     <div class="section">
-        <p><em>Ultimo aggiornamento: Febbraio 2024</em></p>
+        <h2>7. Security</h2>
+        <p>We are committed to protecting your data. Since most data is stored locally on your device, we recommend protecting your device with a password or other security mechanisms.</p>
+    </div>
+
+    <div class="section">
+        <h2>8. Changes to This Privacy Policy</h2>
+        <p>We reserve the right to update this Privacy Policy at any time. Substantial changes will be communicated through the app or by updating the "Last updated" date at the top of this page. We recommend checking this page periodically.</p>
+    </div>
+
+    <div class="section">
+        <h2>9. Contact</h2>
+        <p>For any questions, requests, or concerns regarding this Privacy Policy or the handling of your data, you can contact us at:</p>
+        <p><strong>ga.develop.appstore@gmail.com</strong></p>
     </div>
 </body>
 </html>
